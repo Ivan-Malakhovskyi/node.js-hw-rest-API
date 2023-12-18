@@ -21,3 +21,8 @@ Multer _не обробляє_ жодний інший тип форм, крім
 
 -- _TDD_ - розробка через тестування (Test-Driven Development)
 -- _BDD_ - розробка через реалізацію поведінки (Behavior-Driven Development).
+
+### AUTENTICATION and AUTORIZATION
+
+--_AUTENTICATION_ - перевірка **вірності** даних користувача
+-- _AUTORIZATION_ - перевірка **прав** на до чого користувач має доступ

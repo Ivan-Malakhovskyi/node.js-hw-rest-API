@@ -1,7 +1,7 @@
 import { app } from "./app.js";
 import mongoose from "mongoose";
 
-const { DB_HOST, PORT = 3000 } = process.env; //*Об'єкт procces.env - змінні оточення
+const { DB_HOST, PORT = 3000 } = process.env;
 
 mongoose
   .connect(DB_HOST)
@@ -13,5 +13,5 @@ mongoose
   })
   .catch((err) => {
     console.log("❌ ooops...", err.message);
-    process.exit(1); //*закриття всіх запущених процесів
+    process.exit(1);
   });
